@@ -4,3 +4,5 @@
 ### Here is a demo I created showing how the calculator acts in a browser *(watch until end for full effect & ignore black ring around cursor upon click)*:
 
 ![](images/CSSCalculatorVideo.gif)
+
+<br/> Simply download the `.html` and `.css` files into a common directory and execute the HTML file as a page in a browser.
