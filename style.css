@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Press+Start+2P", sans-serif;
+}
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: #161e39;
+}
+ .calculator{
+     position: relative;
+     display: grid;
+     border-style: solid;
+     border-width: 20px;
+     border-radius: 17%;
+}
+ .calculator .value{
+     grid-column: span 4;
+     height: 100px;
+     text-align: right;
+     border: none;
+     outline: none;
+     padding: 10px;
+     font-size: 15px;
+     border-radius: 25px;
+     box-shadow: inset 0px -8px 20px #2E2E2E;
+}
+ .calculator span{
+     display: grid;
+     width: 60px;
+     height: 60px;
+     color: #fff;
+     background: #000000;
+     place-items: center;
+     border: 2px solid rgb(22, 30, 57);
+     box-shadow: inset 0px -7px 20px #2E2E2E;
+     border-radius: 50px;
+}
+ .calculator span:hover{
+     background: #eaf600;
+     color: #111
+}
+ .calculator span:active{
+     background: #2af900;
+     color: #111;
+     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+ .calculator span.clear{
+     grid-column: span 2;
+     width: 120px;
+     background: #dd1111;
+}
+ .calculator span.plus{
+     grid-row: span 2;
+     height: 120px;
+}
+ .calculator span.equal{
+     background: #03b1ff;
+}
+ .calculator span.equal:hover{
+     background: #eaf600;
+     color: #111
+}
+ .calculator span.equal:active{
+     background: #ffffff;
+     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+ .calculator span.clear:hover{
+     grid-column: span 2;
+     width: 120px;
+     background: #ff0000;
+}
+ .calculator span.clear:active{
+     grid-column: span 2;
+     width: 120px;
+     background: #000000;
+     color: #ffffff;
+     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+ .calculator .value:hover{
+     grid-column: span 4;
+     height: 100px;
+     text-align: right;
+     border: none;
+     outline: none;
+     padding: 10px;
+     font-size: 15px;
+     border-radius: 25px;
+     box-shadow: inset 0px -8px 20px #2E2E2E;
+     transform: translateY(-10%);
+}
