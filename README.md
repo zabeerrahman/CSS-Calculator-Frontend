@@ -5,4 +5,4 @@
 
 ![](images/CSSCalculatorVideo.gif)
 
-<br/> Simply download the `.html` and `.css` files into a common directory and execute the HTML file as a page in a browser.
+<br/> Simply download the `calculator.html` and `style.css` files into a common directory and execute the HTML file as a page in a browser.
