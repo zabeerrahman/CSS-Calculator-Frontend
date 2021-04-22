@@ -3,6 +3,6 @@
 
 ### Here is a demo I created showing how the calculator acts in a browser *(watch until end for full effect & ignore black ring around cursor upon click)*:
 
-![](images/CCSS_Calculator_Video.gif)
+![](images/CSS_Calculator_Video.gif)
 
 <br/> Simply download the `calculator.html` and `style.css` files into a common directory and execute the HTML file as a page in a browser.
