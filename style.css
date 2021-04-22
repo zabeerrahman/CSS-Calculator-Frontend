@@ -56,14 +56,16 @@
      background: #dd1111;
 }
  .calculator span.plus{
-     grid-row: span 2;
-     height: 120px;
+     grid-row: span 1;
+     height: 60px;
 }
  .calculator span.equal{
+    grid-row: span 2;
+    height: 120px;
      background: #03b1ff;
 }
  .calculator span.equal:hover{
-     background: #eaf600;
+     background: #03d9ff;
      color: #111
 }
  .calculator span.equal:active{
